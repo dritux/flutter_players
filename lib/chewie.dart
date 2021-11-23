@@ -56,10 +56,15 @@ class _ChewieDemoState extends State<ChewieDemo> {
         body: Column(
           children: <Widget>[
             Expanded(
+
               child: Center(
                 child: _chewieController != null && _chewieController!.videoPlayerController.value.isInitialized  ?
                 _player() : _loading()
               ),
+            ),
+            Container(
+              margin: EdgeInsets.only(bottom: 350, top: 30),
+                child: Text("plugin Chewie com cloudfront")
             ),
           ],
         ),

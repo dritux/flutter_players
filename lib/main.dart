@@ -59,7 +59,7 @@ class _StreamingStatefulWidgetState extends State<StreamingStatefulWidget> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.stream),
-            label: 'mux',
+            label: 'm3u8',
           ),
         ],
         currentIndex: _selectedIndex,

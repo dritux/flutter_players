@@ -52,6 +52,8 @@ class Constants {
       "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg";
   static String dashStreamUrl =
       "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd";
-  static String segmentedSubtitlesHlsUrl =
-      "https://eng-demo.cablecast.tv/segmented-captions/vod.m3u8";
+  static String segmentedSubtitlesHlsUrl = "https://eng-demo.cablecast.tv/segmented-captions/vod.m3u8";
+  static String muxUrl = "https://stream.mux.com/qxb01i6T202018GFS02vp9RIe01icTcDCjVzQpmaB00CUisJ4.m3u8";
+  static String vimeoUrl = "https://player.vimeo.com/external/376361601.m3u8?s=9083f3631584df9b78f8c79cfddcf2dc952753f3&oauth2_token_id=1271307040";
+
 }
